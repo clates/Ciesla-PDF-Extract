@@ -1,0 +1,8 @@
+ORLN,Cust Part ID / GWS Part ID,Rev,Description,Ship Qty,Unit Price,Amount,Filename
+1,205-001144,,1/4-3FL-SE-REG ZRN,150,$9.48,"$1,422.00",example.out
+,,,BACKORDER,,,,example.out
+2,206-001177,,3/8-4FL-SE-REG AlTiN,40,$14.24,$569.60,example.out
+3,223-001016,,1/16-4FL-SE-REG BN AlTiN,19,$7.09,$134.71,example.out
+,,,"SHIP 7, BACKORDER 13",,,,example.out
+3,223-001016,,1/16-4FL-SE-REG BN AlTiN,19,$7.09,$134.71,example.out
+,,,"SHIP 7, BACKORDER 13",,,,example.out

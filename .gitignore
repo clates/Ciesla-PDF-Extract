@@ -1,0 +1,4 @@
+filesToExtract/*
+out/
+.venv/
+__pycache__/
