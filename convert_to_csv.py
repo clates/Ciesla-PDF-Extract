@@ -120,10 +120,6 @@ def convert_out_to_csv(input_file, output_file, debug=False):
                                     print(f"Found Description: {current_item['Description']}")
                                 break
         
-        # Process any final buffered item
-        if current_item and 'Ship Qty' in current_item and 'Unit Price' in current_item and 'Amount' in current_item:
-            process_and_write_item(current_item, csv_writer, input_filename, debug)
-            processed_items += 1
         
         if debug:
             print(f"Processing complete. Processed {processed_items} items.")
